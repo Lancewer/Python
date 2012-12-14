@@ -1,0 +1,1 @@
+This folder contains the practice codes for book <Core Python Programming 2nd>
