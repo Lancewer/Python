@@ -1,2 +1,5 @@
 *~
 *.pyc
+
+#ignore idea project files
+*/.idea
