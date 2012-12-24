@@ -1,10 +1,18 @@
+'''
+bare.py is a starting point for a wxPython program.
+'''
 import wx
+
+class Frame(wx.Frame):
+    pass
 
 class App(wx.App):
     def OnInit(self):
-        frame = wx.Frame(parent=None, title='Bare')
-        frame.Show()
+        self.frame = Frame(parent=None, title='Spare')
+        self.frame.Show()
+        self.SetTopWindow(self.frame)
         return True
 
-app = App()
-app.MainLoop()
+if __name__ == "__main__":
+    app = App()
+    app.MainLoop()
